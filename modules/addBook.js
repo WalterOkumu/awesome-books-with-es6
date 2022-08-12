@@ -9,6 +9,10 @@ const addBook = () => {
   if (storageAvailable('localStorage')) {
     const { localStorage } = window;
     bookList = JSON.parse(localStorage.getItem('bookList'));
+
+    if ((bookList === null) || (bookList === undefined)) {
+      bookList = [];
+    }
   }
 
   const bookTitle = document.getElementsByClassName('book-title')[0];
