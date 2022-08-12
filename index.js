@@ -40,10 +40,13 @@ window.onclick = (event) => {
     removeBook(event);
   }
 };
-
+// localStorage.setItem('bookList', JSON.stringify(bookList));
 window.onload = () => {
-  if (JSON.parse(localStorage.getItem('bookList')) === null) {
-    updateStorage();
+  let bookList = window.localStorage.getItem('bookList');
+
+  if ((JSON.parse(bookList) === null) || (JSON.parse(bookList) === undefined)) {
+    bookList = [];
+    updateStorage(bookList);
   } else {
     loadFromStorage();
   }

@@ -7,7 +7,6 @@
 ## Built With
 
 - Major languages - HTML, CSS & JS
-- Technologies used
 
 ## Live Demo (if available)
 
@@ -19,14 +18,6 @@
 
 - GitHub: [@WalterOkumu](https://github.com/WalterOkumu)
 - Twitter: [@OkumuOriaro](https://twitter.com/OkumuOriaro)
-
-
-👤 **Alier Philip Maguet**
-
-- GitHub: [@AlierPM](https://github.com/AlierPM)
-- Twitter: [@AlierPM](https://twitter.com/AlierPM)
-- LinkedIn: [@AlierPM](https://www.linkedin.com/in/alier-philip-maguet-b11653203/)
-## Show your support
 
 Give a ⭐️ if you like this project!
 
