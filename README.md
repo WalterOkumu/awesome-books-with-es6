@@ -8,6 +8,12 @@
 
 - Major languages - HTML, CSS & JS
 
+# Getting Started
+
+  To get a local copy up and running follow these simple steps.
+    git@github.com:WalterOkumu/awesome-books-with-es6.git
+    cd awesome-books-with-es6
+
 ## Live Demo (if available)
 
 [Live Demo Link](https://walterokumu.github.io/awesome-books/)
