@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css" />
+  <title>Awesome Books with ES6</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">Awesome Books</div>
+    <ul class="nav-list">
+      <li class="nav-link" id="list-link">List</li>
+      <li class="nav-link">&#124;</li>
+      <li class="nav-link" id="add-new-link">Add New</li>
+      <li class="nav-link">&#124;</li>
+      <li class="nav-link" id="contact-link">Contact</li>
+    </ul>
+  </nav>
+  <main>
+    <div class="date"></div>
+    <section class="list">
+      <div class="header">
+        <h1>All Awesome Books</h1>
+      </div>
+      <div class="book-list" id="book-list"></div>
+    </section>
+    <section class="add-book">
+      <div class="book">
+        <p class="add-book-title">Add a new book</p>
+        <input type="text" placeholder="Title" class="book-title" name='book-title'/>
+        <input type="text" placeholder="Author" class="author" name='author'/>
+        <div class="button-container">
+          <button type="button" class="add-button">Add</button>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact-container">
+        <div class="contact-header">
+          Contact Information
+        </div>
+        <div class="contact-body">
+          <p>Do you have any questions or you just want to say &#34;Hello&#34;? You can reach out to us!</p>
+          <ul class="contact-list">
+            <li class="contact-list-item">Our email: mail@mail.com</li>
+            <li class="contact-list-item">Our phone number: 0043586634422</li>
+            <li class="contact-list-item">Our address: Street name 22, 84503 City, Country</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    Copyright ...
+  </footer>
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
