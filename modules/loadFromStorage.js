@@ -6,7 +6,6 @@ const loadFromStorage = () => {
     const { localStorage } = window;
     const bookData = JSON.parse(localStorage.getItem('bookList'));
     if (bookData !== null) {
-      // bookList = bookData;
       populateBook();
     }
   }

@@ -1,4 +1,3 @@
-/* eslint-disable import/no-cycle */
 import storageAvailable from './storageAvailable.js';
 import appendToBook from './appendToBook.js';
 import updateStorage from './updateStorage.js';
@@ -18,10 +17,7 @@ const addBook = () => {
   const bookTitle = document.getElementsByClassName('book-title')[0];
   const author = document.getElementsByClassName('author')[0];
 
-  if (bookTitle.value === '' || author.value === '') {
-    // eslint-disable-next-line no-alert
-    alert('Please make sure to fill both Title & Author fields!');
-  } else {
+  if (bookTitle.value !== '' || author.value !== '') {
     bookList.push({
       Title: bookTitle.value,
       Author: author.value,
